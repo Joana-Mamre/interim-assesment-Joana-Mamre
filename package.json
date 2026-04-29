@@ -4,6 +4,7 @@
   "description": "In this assignment, you will integrate your cloned coinbase frontend with a backend API to build a functional cryptocurrency platform with authentication and dynamic data.",
   "main": "index.js",
   "scripts": {
+    "start": "node coinbase-backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

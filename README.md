@@ -4,6 +4,14 @@ In this assignment, you will integrate your cloned coinbase frontend with a back
 
 You are required to implement the features using Node.js with MongoDB as the database. Create proper data models (schemas) and structure your project using best practices (models, routes, and controllers). All features must be exposed through RESTful APIs for the frontend to consume.
 
+## Backend setup
+
+1. Copy `.env.example` to `.env`.
+2. Set `MONGO_URI` to your MongoDB connection string.
+3. Set `JWT_SECRET` to a secure secret used for signing tokens.
+4. Run `npm start`.
+
+
 ## 1. Authentication System (JWT-Based)
 
 ### Register (GET /register)
